@@ -4,4 +4,4 @@
   
 В этой работе впервые была создана форма и повторил **__flex__** и **__grid__** инструменты верстки.  
   
-* [*Ссылка на работу*](https://chapion777.github.io/mesto-project/index.html)  
+* [*Ссылка на работу*](https://chapion777.github.io/Build-Your-Awesome-Platform/index.html)  
