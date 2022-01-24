@@ -1,0 +1,41 @@
+.home__fon-blue {
+  width: 480px;
+  height: 830px;
+  background: linear-gradient(rgb(84, 84, 212, .27), rgb(84, 84, 212, .11));
+  transform: rotate(-55deg) scale(1);
+  border-radius: 155px;
+  filter: blur(100px);
+  overflow: hidden;
+  position: absolute;
+  top: -50px;
+  left: 10px;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: pulse-blue;
+}
+
+@keyframes pulse-blue {
+  0 {
+    opacity: 1;
+    transform: rotate(-55deg) scale(1);
+  }
+  50% {
+    opacity: .7;
+    transform: rotate(-55deg) scale(.8);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(-55deg) scale(1);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .home__fon-blue {
+    width: 231px;
+    height: 518px;
+    filter: blur(52px);
+    top: 132px;
+    left: 52px;
+  }
+}

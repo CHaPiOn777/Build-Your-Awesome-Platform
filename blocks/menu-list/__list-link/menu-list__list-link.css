@@ -1,0 +1,10 @@
+.menu-list__list-link {
+  color: rgb(255, 255, 255, 0.7);
+  text-decoration: none;
+  transition: color 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.menu-list__list-link:hover {
+  color: #5454D4;
+}

@@ -1,0 +1,18 @@
+.home__main-img {
+  margin-left: 20px;
+}
+
+/* @media screen and (max-width: 1279px) {
+  .home__main-img {
+    height: 600px;
+    margin-top: 30px;
+  }
+} */
+
+@media screen and (max-width: 767px) {
+  .home__main-img {
+    height: 360px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+}

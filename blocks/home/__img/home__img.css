@@ -1,0 +1,31 @@
+.home__img {
+  z-index: 100;
+  position: absolute;
+  height: 555px;
+  left: 550px;
+  top: 140px;
+}
+
+/* @media screen and (max-width: 1279px) {
+  .home__img {
+    width: 556px;
+    left: 505px;
+    top: 170px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .home__img {
+    height: 380px;
+    left: 170px;
+    top: 670px;
+  }
+} */
+
+@media screen and (max-width: 767px) {
+  .home__img {
+    height: 282px;
+    left: 0;
+    top: 603px;
+  }
+}
