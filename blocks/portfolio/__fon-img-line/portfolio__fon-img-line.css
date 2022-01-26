@@ -1,0 +1,20 @@
+.portfolio__fon-img-line {
+  background-image: url(../../../images/line.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 703px;
+  left: 53px;
+  width: 95px;
+  height: 28px;
+  position: absolute;
+}
+
+
+@media screen and (max-width: 767px) {
+  .portfolio__fon-img-line {
+    top: 662px;
+    left: 14px;
+    width: 61px;
+    height: 17px;
+  }
+}

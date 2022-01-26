@@ -1,0 +1,15 @@
+.portfolio__gallery {
+  margin: 0 auto;
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 38px 38px auto ;
+  gap: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .portfolio__gallery {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+}

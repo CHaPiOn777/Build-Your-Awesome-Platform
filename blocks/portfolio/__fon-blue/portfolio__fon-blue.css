@@ -1,0 +1,38 @@
+.portfolio__fon-blue {
+  width: 40vw;
+  height: 50vh;
+  background: linear-gradient(rgb(84, 84, 212, .21), rgb(84, 84, 212, .088));
+  background-size: cover;
+  transform: rotate(-54.37deg) scale(1);
+  border-radius: 233px;
+  filter: blur(100px);
+  position: absolute;
+  top: 144px;
+  left: 886px;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: pulse-service-blue;
+  z-index: 0;
+}
+
+@keyframes pulse-service-blue {
+  0 {
+    opacity: 1;
+    transform: rotate(-55deg) scale(1);
+  }
+  50% {
+    opacity: .7;
+    transform: rotate(-55deg) scale(.8);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(-55deg) scale(1);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .portfolio__fon-blue {
+    display: none;
+  }
+}
