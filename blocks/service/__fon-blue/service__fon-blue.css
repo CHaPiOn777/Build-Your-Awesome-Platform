@@ -12,11 +12,11 @@
   animation-duration: 3.5s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  animation-name: pulse-blue;
+  animation-name: pulse-service-blue;
   z-index: 0;
 }
 
-@keyframes pulse-blue {
+@keyframes pulse-service-blue {
   0 {
     opacity: 1;
     transform: rotate(-55deg) scale(1);
