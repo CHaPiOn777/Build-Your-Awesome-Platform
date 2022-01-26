@@ -1,0 +1,15 @@
+.about-text__title {
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 800;
+  width: 590px;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .about-text__title {
+    width: 310px;
+    font-size: 36px;
+    line-height: 150%;
+  }
+}

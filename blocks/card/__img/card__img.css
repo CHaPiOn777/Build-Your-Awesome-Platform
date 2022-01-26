@@ -1,0 +1,25 @@
+.card__img {
+  margin-top: 48px;
+  width: 69px;
+  transform: scale(.9);
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: pulse-card;
+  opacity: .7;
+}
+
+@keyframes pulse-card {
+  0 {
+    opacity: .7;
+    transform: scale(.9);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: .7;
+    transform: scale(.9);
+  }
+}

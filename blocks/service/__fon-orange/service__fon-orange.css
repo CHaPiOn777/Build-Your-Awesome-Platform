@@ -1,0 +1,37 @@
+.service__fon-orange {
+  width: 100vw;
+  height: 75vh;
+  background: linear-gradient(rgba(251, 168, 28, 0.048), rgba(224, 86, 136, 0.018));
+  transform: rotate(-25deg) scale(1);
+  background-size: cover;
+  border-radius: 233px;
+  filter: blur(200px);
+  position: absolute;
+  top: 320px;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: pulse-orange;
+  z-index: 0;
+}
+
+@keyframes pulse-orange {
+  0 {
+    opacity: 1;
+    transform: rotate(-25deg) scale(1);
+  }
+  50% {
+    opacity: .7;
+    transform: rotate(-25deg) scale(.8);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(-25deg) scale(1);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .service__fon-orange {
+    display: none;
+  }
+}

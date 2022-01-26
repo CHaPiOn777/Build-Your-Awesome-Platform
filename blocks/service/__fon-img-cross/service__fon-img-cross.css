@@ -1,0 +1,21 @@
+.service__fon-img-cross {
+  background-image: url(../../../images/cross.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 247px;
+  right: 53px;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+}
+
+
+@media screen and (max-width: 767px) {
+  .service__fon-img-cross {
+    top: 303px;
+    left: 302px;
+    width: 14px;
+    height: 14px;
+    transform: rotate(30deg);
+  }
+}

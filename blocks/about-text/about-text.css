@@ -1,0 +1,12 @@
+.about-text {
+  display: flex;
+  padding-top: 150px;
+  margin: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .about-text {
+    padding-top: 100px;
+    flex-direction: column;
+  }
+}

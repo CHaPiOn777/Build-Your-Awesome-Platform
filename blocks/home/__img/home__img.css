@@ -4,6 +4,7 @@
   height: 555px;
   left: 550px;
   top: 140px;
+  z-index: 1;
 }
 
 /* @media screen and (max-width: 1279px) {
@@ -24,7 +25,7 @@
 
 @media screen and (max-width: 767px) {
   .home__img {
-    height: 282px;
+    max-height: 260px;
     left: 0;
     top: 603px;
   }

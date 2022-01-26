@@ -1,0 +1,13 @@
+.about__video {
+  height: 670px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .about__video {
+    width: 320px;
+    height: 184px;
+    margin-top: 50px;
+  }
+}

@@ -1,5 +1,6 @@
 .home__main-img {
   margin-left: 20px;
+  z-index: 2;
 }
 
 /* @media screen and (max-width: 1279px) {
@@ -11,7 +12,7 @@
 
 @media screen and (max-width: 767px) {
   .home__main-img {
-    height: 360px;
+    max-height: 360px;
     margin: 0 auto;
     margin-top: 50px;
   }

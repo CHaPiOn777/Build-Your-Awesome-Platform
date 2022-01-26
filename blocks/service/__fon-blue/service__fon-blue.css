@@ -1,10 +1,10 @@
-.home__fon-blue {
-  width: 33vw;
-  height: 75vh;
-  background: linear-gradient(rgb(84, 84, 212, .27), rgb(84, 84, 212, .11));
+.service__fon-blue {
+  width: 25vw;
+  height: 50vh;
+  background: linear-gradient(rgb(84, 84, 212, .21), rgb(84, 84, 212, .088));
   background-size: cover;
-  transform: rotate(-55deg) scale(1);
-  border-radius: 155px;
+  transform: rotate(-54.37deg) scale(1);
+  border-radius: 233px;
   filter: blur(200px);
   position: absolute;
   top: -50px;
@@ -32,11 +32,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .home__fon-blue {
-    width: 33vw;
-    height: 75vh;
-    filter: blur(100px);
-    top: 85px;
-    left: 69px;
+  .service__fon-blue {
+    display: none;
   }
 }
