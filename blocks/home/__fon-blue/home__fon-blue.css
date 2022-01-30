@@ -32,21 +32,9 @@
 }
 
 
-@keyframes pulse-blue-small {
-  0 {
-    transform: rotate(-55deg) scale(1);
-  }
-  50% {
-    transform: rotate(-55deg) scale(.8);
-  }
-  100% {
-    transform: rotate(-55deg) scale(1);
-  }
-}
-
 @media screen and (max-width: 767px) {
   .home__fon-blue {
-    animation-name: pulse-blue-small;
+    animation: none;
     opacity: 1;
     width: 33vw;
     height: 75vh;
