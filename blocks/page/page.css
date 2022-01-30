@@ -1,11 +1,12 @@
 .page {
-  max-width: 100%;
-  margin: auto;
+  max-width: 100vw;
+  margin: 0 auto;
   background-color: rgb(25, 25, 27);
   font-family: "NunitoSans", sans-serif;
   color: #fff;
   animation-duration: 1.5s;
   animation-name: slidein;
+  overflow-x: hidden;
 }
 
 @keyframes slidein {

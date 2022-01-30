@@ -1,0 +1,19 @@
+.contacts {
+  background-color: rgba(30, 30, 32, 0.502);
+  background-size: 100%;
+  min-height: 506px;
+  margin: 0 auto;
+  margin-top: 170px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+  
+@media screen and (max-width: 767px) {
+  .contacts {
+    min-height: 416px;
+    padding: 0 5px;
+  }
+}

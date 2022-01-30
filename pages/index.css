@@ -51,3 +51,13 @@
 @import url(../blocks/portfolio/__gallery/portfolio__gallery.css);
 @import url(../blocks/portfolio/__title/portfolio__title.css);
 @import url(../blocks/portfolio/__fon-blue/portfolio__fon-blue.css);
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__fon-img-circle/contacts__fon-img-circle.css);
+@import url(../blocks/contacts/__fon-img-cross/contacts__fon-img-cross.css);
+@import url(../blocks/contacts/__title/contacts__title.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/menu-list/_header/menu-list_header.css);
+@import url(../blocks/footer/__paragraph/footer__paragraph.css);
+@import url(../blocks/contacts/__content/contacts__content.css);
+@import url(../blocks/button/_contacts/button_contacts.css);
+@import url(../blocks/menu-list/__list-item/_footer/menu-list__list-item_footer.css);

@@ -1,0 +1,16 @@
+.button_contacts {
+  padding: 16px 48px;
+  font-size: 21px;
+  line-height: 29px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 767px) {
+  .button_contacts {
+    display: block;
+    padding: 10px 33px;
+    margin-top: 50px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

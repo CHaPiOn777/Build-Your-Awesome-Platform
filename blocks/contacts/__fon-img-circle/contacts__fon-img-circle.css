@@ -1,0 +1,20 @@
+.contacts__fon-img-circle {
+  background-image: url(../../../images/circle.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 58px;
+  left: 1242px;
+  width: 62px;
+  height: 72px;
+  position: absolute;
+}
+
+
+@media screen and (max-width: 767px) {
+  .contacts__fon-img-circle {
+    top: 363px;
+    left: 14px;
+    width: 40px;
+    height: 46px;
+  }
+}

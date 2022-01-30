@@ -1,0 +1,21 @@
+@media screen and (max-width: 767px) {
+  .menu-list_header {
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    padding: 10px;
+    align-items: end;
+    flex-direction: column;
+    transition: 0.5s;
+    transform: scaleY(0);
+    position: fixed;
+    top: 80px;
+  }
+  .hamburger-menu__toggle:checked ~ .menu-list {
+    z-index: 100;
+    opacity: 1;
+    transform: scaleY(1);
+    transform-origin: top center;
+    background-color: rgb(25, 25, 27);
+  }
+}

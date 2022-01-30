@@ -1,0 +1,16 @@
+.contacts__content {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .contacts__content {
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

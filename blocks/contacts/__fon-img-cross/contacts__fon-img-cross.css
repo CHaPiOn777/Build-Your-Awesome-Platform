@@ -1,0 +1,21 @@
+.contacts__fon-img-cross {
+  background-image: url(../../../images/cross.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 420px;
+  right: 1273px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  transform: rotate(30deg);
+}
+
+
+@media screen and (max-width: 767px) {
+  .contacts__fon-img-cross {
+    top: 46px;
+    left: 243px;
+    width: 12px;
+    height: 12px;
+  }
+}
