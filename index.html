@@ -11,8 +11,8 @@
 
 <body class="page">
 
-  <header class="header">
-    <img src="./images/logo.svg" alt="logo" class="logo">
+  <header class="header" id="header">
+    <a href="#header"><img src="./images/logo.svg" alt="logo" class="logo"></a>
     <nav class="hamburger-menu">
       <input class="hamburger-menu__toggle" id="hamburger-menu__toggle" type="checkbox" hidden>
       <label class="hamburger-menu__btn" for="hamburger-menu__toggle">
@@ -20,10 +20,10 @@
       </label>
 
       <ul class="menu-list menu-list_header">
-        <li class="menu-list__list-item"><a href="" class="menu-list__list-link">Home</a></li>
-        <li class="menu-list__list-item"><a href="" class="menu-list__list-link">Services</a></li>
-        <li class="menu-list__list-item"><a href="" class="menu-list__list-link">Our Project</a></li>
-        <li class="menu-list__list-item"><a href="" class="menu-list__list-link">About us</a></li>
+        <li class="menu-list__list-item"><a href="#about" class="menu-list__list-link">Home</a></li>
+        <li class="menu-list__list-item"><a href="#service" class="menu-list__list-link">Services</a></li>
+        <li class="menu-list__list-item"><a href="#portfolio" class="menu-list__list-link">Our Project</a></li>
+        <li class="menu-list__list-item"><a href="#contacts" class="menu-list__list-link">About us</a></li>
       </ul>
 
     </nav>
@@ -32,10 +32,10 @@
   </header>
 
   <main class="main">
-    <section class="home">
+    <section class="home" >
       <div class="home__fon-blue"></div>
       <div class="home__fon-orange"></div>
-      <div class="home-text">
+      <div class="home-text" id="home">
         <h1 class="home-text__title">Build Your&nbsp; Awesome&nbsp; Platform</h1>
         <p class="home-text__paragraph">Enver studio is&nbsp;a&nbsp;digital studio that offers several services such
           as&nbsp;UI/UX Design to&nbsp;developers, we&nbsp;will provide the best service for those of&nbsp;you who use
@@ -46,7 +46,7 @@
       <img class="home__img" src="./images/main-svg.svg" alt="design attributes">
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
       <div class="about-text">
         <h2 class="about-text__title">Why Enver Is&nbsp;The Best Choice?</h2>
         <p class="about-text__paragraph">Watch this one minute video so&nbsp;you understand why you should use our
@@ -57,7 +57,7 @@
         allowfullscreen></iframe>
     </section>
 
-    <section class="service">
+    <section class="service" id="service">
       <h2 class="service__title">The Service We&nbsp; Provide For You</h2>
       <div class="service__fon-img-triangle"></div>
       <div class="service__fon-img-cross"></div>
@@ -97,7 +97,7 @@
       </div>
     </section>
 
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
       <h2 class="portfolio__title">Our Awesome Portofolio</h2>
       <div class="portfolio__fon-img-circle"></div>
       <div class="portfolio__fon-img-cross"></div>
@@ -110,7 +110,7 @@
       </div>
     </section>
 
-    <section class="contacts">
+    <section class="contacts" id="contacts">
       <div class="contacts__fon-img-circle"></div>
       <div class="contacts__fon-img-cross"></div>
       <div class="contacts__content">
@@ -122,7 +122,7 @@
   </main>
 
   <footer class="footer">
-    <img src="./images/logo.svg" alt="logo" class="logo">
+    <a href="#header"><img src="./images/logo.svg" alt="logo" class="logo"></a>
     <nav>
       <ul class="menu-list">
         <li class="menu-list__list-item menu-list__list-item_footer"><a href="#" class="menu-list__list-link">Support</a></li>
@@ -132,7 +132,6 @@
     </nav>
     <p class="footer__paragraph">© 2022 Vladislav Shishkin</p>
   </footer>
-
 </body>
 
 </html>
