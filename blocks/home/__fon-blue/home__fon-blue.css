@@ -13,7 +13,7 @@
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-name: pulse-blue;
-  opacity: 1;
+  z-index: 0;
 }
 
 @keyframes pulse-blue {
@@ -31,8 +31,22 @@
   }
 }
 
+
+@keyframes pulse-blue {
+  0 {
+    transform: rotate(-55deg) scale(1);
+  }
+  50% {
+    transform: rotate(-55deg) scale(.8);
+  }
+  100% {
+    transform: rotate(-55deg) scale(1);
+  }
+}
+
 @media screen and (max-width: 767px) {
   .home__fon-blue {
+    opacity: 1;
     width: 33vw;
     height: 75vh;
     filter: blur(100px);
